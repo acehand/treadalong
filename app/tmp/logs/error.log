@@ -5647,3 +5647,36 @@
 #6 /Applications/MAMP/htdocs/treadalong/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
 #7 /Applications/MAMP/htdocs/treadalong/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2012-06-23 21:41:10 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/treadalong/app/View/Home/index/treadalong.ctp" is missing.
+#0 /Applications/MAMP/htdocs/treadalong/lib/Cake/View/View.php(462): View->_getViewFileName('index/treadalon...')
+#1 /Applications/MAMP/htdocs/treadalong/lib/Cake/Controller/Controller.php(959): View->render('index/treadalon...', NULL)
+#2 /Applications/MAMP/htdocs/treadalong/app/Controller/HomeController.php(11): Controller->render('index/treadalon...')
+#3 [internal function]: HomeController->index('index', 'treadalong')
+#4 /Applications/MAMP/htdocs/treadalong/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /Applications/MAMP/htdocs/treadalong/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/MAMP/htdocs/treadalong/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /Applications/MAMP/htdocs/treadalong/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-23 21:42:05 Error: [MissingControllerException] Controller class TreadalongController could not be found.
+#0 /Applications/MAMP/htdocs/treadalong/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-23 23:01:32 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/treadalong/app/View/Home/index/treadalong.ctp" is missing.
+#0 /Applications/MAMP/htdocs/treadalong/lib/Cake/View/View.php(462): View->_getViewFileName('index/treadalon...')
+#1 /Applications/MAMP/htdocs/treadalong/lib/Cake/Controller/Controller.php(959): View->render('index/treadalon...', NULL)
+#2 /Applications/MAMP/htdocs/treadalong/app/Controller/HomeController.php(11): Controller->render('index/treadalon...')
+#3 [internal function]: HomeController->index('index', 'treadalong')
+#4 /Applications/MAMP/htdocs/treadalong/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /Applications/MAMP/htdocs/treadalong/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/MAMP/htdocs/treadalong/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /Applications/MAMP/htdocs/treadalong/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-06-23 23:24:38 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/treadalong/app/View/Home/index/leaflet.css.ctp" is missing.
+#0 /Applications/MAMP/htdocs/treadalong/lib/Cake/View/View.php(462): View->_getViewFileName('index/leaflet.c...')
+#1 /Applications/MAMP/htdocs/treadalong/lib/Cake/Controller/Controller.php(959): View->render('index/leaflet.c...', NULL)
+#2 /Applications/MAMP/htdocs/treadalong/app/Controller/HomeController.php(11): Controller->render('index/leaflet.c...')
+#3 [internal function]: HomeController->index('index', 'leaflet.css')
+#4 /Applications/MAMP/htdocs/treadalong/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /Applications/MAMP/htdocs/treadalong/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 /Applications/MAMP/htdocs/treadalong/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /Applications/MAMP/htdocs/treadalong/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
